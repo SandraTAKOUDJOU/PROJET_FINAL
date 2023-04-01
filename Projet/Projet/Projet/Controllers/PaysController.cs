@@ -104,5 +104,28 @@ namespace Projet.Controllers
         {
             return _context.Pays.Any(e => e.Id == id);
         }
+        [HttpGet("{id}/population/{year}")]
+        public async Task<ActionResult<int>> GetPopulation(int id, int year)
+        {
+            var population = await _context.Population.FirstOrDefaultAsync(p => p.PaysId == id && p.annee == year);
+
+            if (population == null)
+            {
+                return NotFound();
+            }
+
+            return population.nombre;
+        }
+
+        [HttpGet("continent/{continent}/population/{year}")]
+        public async Task<ActionResult<int>> GetContinentPopulation(string continent, int year)
+        {
+            var countries = await _context.Pays.Where(c => c.continent == continent).ToListAsync();
+            var countryIds = countries.Select(c => c.Id);
+
+            var populationSum = await _context.Population.Where(p => countryIds.Contains(p.PaysId) && p.annee == year).SumAsync(p => p.nombre);
+
+            return populationSum;
+        }
     }
 }

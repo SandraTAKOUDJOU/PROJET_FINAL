@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mukam\\Downloads\\Projet\\Projet\\Projet\\Projet.csproj": {}
+    "C:\\Users\\mukam\\Source\\Repos\\PROJET_FINAL\\Projet\\Projet\\Projet\\Projet.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mukam\\Downloads\\Projet\\Projet\\Projet\\Projet.csproj": {
+    "C:\\Users\\mukam\\Source\\Repos\\PROJET_FINAL\\Projet\\Projet\\Projet\\Projet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mukam\\Downloads\\Projet\\Projet\\Projet\\Projet.csproj",
+        "projectUniqueName": "C:\\Users\\mukam\\Source\\Repos\\PROJET_FINAL\\Projet\\Projet\\Projet\\Projet.csproj",
         "projectName": "Projet",
-        "projectPath": "C:\\Users\\mukam\\Downloads\\Projet\\Projet\\Projet\\Projet.csproj",
+        "projectPath": "C:\\Users\\mukam\\Source\\Repos\\PROJET_FINAL\\Projet\\Projet\\Projet\\Projet.csproj",
         "packagesPath": "C:\\Users\\mukam\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mukam\\Downloads\\Projet\\Projet\\Projet\\obj\\",
+        "outputPath": "C:\\Users\\mukam\\Source\\Repos\\PROJET_FINAL\\Projet\\Projet\\Projet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mukam\\AppData\\Roaming\\NuGet\\NuGet.Config",
