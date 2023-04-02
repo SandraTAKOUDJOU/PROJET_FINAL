@@ -117,27 +117,6 @@ namespace Projet.Controllers
             return population.nombre;
         }
 
-        [HttpGet("continent/{continent}/population/{year}")]
-        public async Task<ActionResult<int>> GetContinentPopulation(string continent, int year)
-        {
-            var countries = await _context.Pays.Where(c => c.continent == continent).ToListAsync();
-            var countryIds = countries.Select(c => c.Id);
-
-            var populationSum = await _context.Population.Where(p => countryIds.Contains(p.PaysId) && p.annee == year).SumAsync(p => p.nombre);
-
-            return populationSum;
-        }
-
-        [HttpGet("continent/Europe/population/{year}")]
-        public async Task<ActionResult<int>> GetEuropePopulation(int year)
-        {
-            var countries = await _context.Pays.Where(c => c.continent == "Europe").ToListAsync();
-            var countryIds = countries.Select(c => c.Id);
-
-            var populationSum = await _context.Population.Where(p => countryIds.Contains(p.PaysId) && p.annee == year).SumAsync(p => p.nombre);
-
-            return populationSum;
-        }
-
+        
     }
 }

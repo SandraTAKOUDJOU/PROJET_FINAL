@@ -270,3 +270,4 @@ C:\Users\mukam\Source\Repos\PROJET_FINAL\Projet\Projet\Projet\obj\Debug\net6.0\P
 C:\Users\mukam\Source\Repos\PROJET_FINAL\Projet\Projet\Projet\obj\Debug\net6.0\ref\Projet.dll
 C:\Users\mukam\Source\Repos\PROJET_FINAL\Projet\Projet\Projet\obj\Debug\net6.0\Projet.Properties.Resources.resources
 C:\Users\mukam\Source\Repos\PROJET_FINAL\Projet\Projet\Projet\obj\Debug\net6.0\Projet.csproj.GenerateResource.cache
+C:\Users\mukam\Source\Repos\PROJET_FINAL\Projet\Projet\Projet\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll

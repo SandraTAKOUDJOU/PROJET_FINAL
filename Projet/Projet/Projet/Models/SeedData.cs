@@ -24,7 +24,7 @@ public static class SeedData // Ajout d’une nouvelle classe SeedData dans Mode
                 new Pays
                 {
                     nom = "France",
-                    continent = " Europe"
+                    ContinentId = 1
                 }
                 );
             }

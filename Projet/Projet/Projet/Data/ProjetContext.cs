@@ -16,6 +16,8 @@ namespace Projet.Data
 
         public DbSet<Projet.Models.Pays> Pays { get; set; } = default!;
 
-        public DbSet<Projet.Models.Population> Population { get; set; }
+        public DbSet<Projet.Models.Population> Population { get; set; } = default!;
+
+        public DbSet<Projet.Models.Continent>? Continent { get; set; }
     }
 }
