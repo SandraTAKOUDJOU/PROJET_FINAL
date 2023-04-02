@@ -28,6 +28,7 @@ public static class SeedData // Ajout d’une nouvelle classe SeedData dans Mode
                 }
                 );
             }
+            context.SaveChanges();
             if (context.Population.Any())
             {
                 return;
