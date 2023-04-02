@@ -7,7 +7,7 @@
 
         public string continent { get; set; }
 
-        public ICollection<Population> population { get; set; }
+        
 
         //Test
 
