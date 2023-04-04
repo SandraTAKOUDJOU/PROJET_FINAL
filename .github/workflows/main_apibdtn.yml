@@ -62,7 +62,7 @@ jobs:
         id: deploy-to-webapp
         uses: azure/webapps-deploy@v2
         with:
-          app-name: 'apibdtn_groups'
+          app-name: 'apibdtn_group'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BEAC6C10E1E04CBF9D6C6BA4C915BAC8 }}
           package: .
