@@ -20,7 +20,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: Projet
+        working-directory: Projet/Projet
 
     steps:
       - uses: actions/checkout@v3
